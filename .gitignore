@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / tools
+.vscode/
+.idea/
+.ruff_cache/
+pyrightconfig.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jangan exclude pkl & data — wajib ada untuk Streamlit Cloud
+# pipeline_artifacts.pkl  ← PERLU di-commit
+# data/                   ← PERLU di-commit
