@@ -91,7 +91,7 @@ Streamlit Dashboard (7 halaman)
 
 ---
 
-## Bug Fixes (dari file asli)
+## Bug Fixes
 
 | # | File | Bug | Fix |
 |---|------|-----|-----|
