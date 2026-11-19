@@ -39,9 +39,7 @@ except (ImportError, AttributeError):
 
 warnings.filterwarnings("ignore")
 
-# ---------------------------------------------------------------------------
 # Page config – MUST be first Streamlit call
-# ---------------------------------------------------------------------------
 st.set_page_config(
     page_title="Steel Fault AI – Kelompok X4",
     page_icon="🔩",
@@ -231,7 +229,7 @@ PAGES = [
     "📊  Eksplorasi Data",
     "🧬  Genetic Algorithm",
     "🌊  Particle Swarm Optimization",
-    "🤖  Perbandingan Model",
+    "🤖  Model Comparison",
     "🔍  Sistem Fuzzy",
     "🔮  Prediksi Real-Time",
 ]
