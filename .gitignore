@@ -20,6 +20,7 @@ build/
 .idea/
 .ruff_cache/
 pyrightconfig.json
+pyrefly.toml
 
 # OS
 .DS_Store
