@@ -28,3 +28,13 @@ Thumbs.db
 # Jangan exclude pkl & data — wajib ada untuk Streamlit Cloud
 # pipeline_artifacts.pkl  ← PERLU di-commit
 # data/                   ← PERLU di-commit
+
+# IDE & tools (lokal saja, tidak perlu di repo)
+.vscode/
+.ruff_cache/
+
+# Temporary files
+_nb_verify.py
+
+# Generated plot images (dibuat otomatis oleh pipeline, tidak dipakai dashboard)
+plot_*.png
